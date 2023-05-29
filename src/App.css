@@ -1,0 +1,87 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.overall-container {
+  height: 100vh;
+}
+
+.new-button {
+  background-color: #dbeafe;
+  border-style: none;
+  display: flex;
+  border-radius: 5px;
+  padding: 5px 15px 5px 15px;
+  cursor: pointer;
+}
+
+.plus-img-prop {
+  height: 15px;
+  align-self: center;
+  margin-right: 10px;
+}
+
+.slides-container {
+  /* background-color: #f8fafc; */
+  background-color: #475569;
+  height: 75vh;
+  display: flex;
+}
+
+.sidebar-container {
+  padding: 0;
+  overflow-y: auto;
+  width: 30vw;
+}
+
+.active-slide-container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.active-slide-content {
+  height: 80%;
+  width: 95%;
+  border-radius: 5px;
+  background-color: #ffffff;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/nxt-slides/nxt-slides-bg.png');
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: Bree Serif;
+}
+
+.active-slide-heading {
+  width: 100%;
+  font-size: 50px;
+  color: #0967d2;
+  text-align: center;
+  border-style: none;
+  background-color: transparent;
+  outline: none;
+  margin: 0;
+}
+
+.active-slide-para {
+  width: 100%;
+  text-align: center;
+  border-style: none;
+  background-color: transparent;
+  outline: none;
+  font-size: 18px;
+  color: #475569;
+}

@@ -1,0 +1,15 @@
+.nav-container {
+  list-style: none;
+  margin: 0;
+  height: 15vh;
+  padding-left: 30px;
+  padding-right: 30px;
+  display: flex;
+  align-items: center;
+  background-color: #dbeafe;
+}
+
+.header-logo-img-prop {
+  height: 10vh;
+  margin-right: 1rem;
+}
